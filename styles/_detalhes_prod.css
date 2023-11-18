@@ -1,0 +1,72 @@
+#product__details {
+    background-color: #f5f5f5;
+    padding: 2em;
+}
+
+.product__details__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product__details__image {
+    width: 40%;
+}
+
+.product__details__image img {
+    width: 100%;
+    height: auto;
+}
+
+.product__details__info {
+    width: 50%;
+    text-align: left;
+}
+
+.product__details__info h2 {
+    color: #5f7995;
+    font-size: 50px;
+}
+
+.product__details__info p {
+    font-size: 21px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+#background__section {
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ase-hero-202311?wid=4098&hei=1294&fmt=jpeg&qlt=90&.v=1698431463411"); /* Substitua pelo caminho real da sua outra imagem */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.background__content {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #9a42f1;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: #fff;
+    border-radius: 13px;
+}
+
+
+/* Estilos para telas menores (tablets e celulares) */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+/* Estilos para telas menores (celulares) */
+@media only screen and (max-width: 360px) {
+
+
+
+}
+
